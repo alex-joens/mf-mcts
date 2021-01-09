@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49a7c100-1617-4120-82a3-85a580e06bf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/multiFidelityMCTS/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiFidelityMCTS/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiFidelityMCTS/PyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiFidelityMCTS/SingleMFMCTSPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiFidelityMCTS/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gvgai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gvgai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/AgentExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/AgentExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/AgentExecutorMulti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/AgentExecutorMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/CompetitionParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/CompetitionParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/GVGExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/GVGExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/GVGReplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/GVGReplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/competition/LearnerExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/competition/LearnerExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/GameContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/GameContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/InteractionContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/InteractionContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/MappingContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/MappingContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/ParameterBoolContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/ParameterBoolContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/ParameterContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/ParameterContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/ParameterDoubleContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/ParameterDoubleContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/ParameterIntContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/ParameterIntContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/SpriteContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/SpriteContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/content/TerminationContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/content/TerminationContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/BasicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/BasicGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/ForwardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/ForwardModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/GameDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/GameDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/GameSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/GameSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/Observation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/Observation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/SLDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/SLDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/SerializableImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/SerializableImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/SerializableStateObservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/SerializableStateObservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/StateObservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/StateObservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/game/StateObservationMulti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/game/StateObservationMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/generator/AbstractLevelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/generator/AbstractLevelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/generator/AbstractRuleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/generator/AbstractRuleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/logging/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/logging/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/logging/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/logging/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/optimization/AbstractOptimizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/optimization/AbstractOptimizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/optimization/OptimizationObjective.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/optimization/OptimizationObjective.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/optimization/ucbOptimization/UCBEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/optimization/ucbOptimization/UCBEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/optimization/ucbOptimization/UCBEvoEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/optimization/ucbOptimization/UCBEvoEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/optimization/ucbOptimization/UCBOptimization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/optimization/ucbOptimization/UCBOptimization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player/AbstractMultiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/player/AbstractMultiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player/AbstractPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/player/AbstractPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player/LearningPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/player/LearningPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/MultiSpriteCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/MultiSpriteCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/MultiSpriteCounterSubTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/MultiSpriteCounterSubTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/SpriteCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/SpriteCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/SpriteCounterMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/SpriteCounterMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/StopCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/StopCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/Termination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/Termination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/termination/Timeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/termination/Timeout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/SpriteGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/SpriteGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/VGDLFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/VGDLFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/VGDLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/VGDLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/VGDLRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/VGDLRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/VGDLSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/VGDLSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/vgdl/VGDLViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/vgdl/VGDLViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/Types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/FlakAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/FlakAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/HorizontalAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/HorizontalAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/MovingAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/MovingAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/NullAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/NullAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/VerticalAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/VerticalAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/AimedAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/AimedAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/BirdAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/BirdAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/CarAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/CarAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/LanderAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/LanderAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/MissileAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/MissileAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/OngoingAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/OngoingAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/OngoingShootAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/OngoingShootAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/OngoingTurningAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/OngoingTurningAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/OrientedAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/OrientedAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/PlatformerAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/PlatformerAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/ShootAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/ShootAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/ShootOnlyAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/ShootOnlyAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/SpaceshipAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/SpaceshipAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/avatar/oriented/WizardAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/avatar/oriented/WizardAvatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/Effect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/Effect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/TimeEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/TimeEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/AddTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/AddTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/Align.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/Align.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/AttractGaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/AttractGaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/BounceDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/BounceDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/BounceForward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/BounceForward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/ChangeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/ChangeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/CollectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/CollectResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/CollectResourceIfHeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/CollectResourceIfHeld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/DecreaseSpeedToAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/DecreaseSpeedToAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/IncreaseSpeedToAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/IncreaseSpeedToAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/KillBoth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/KillBoth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/KillIfFromAbove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/KillIfFromAbove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/KillIfFrontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/KillIfFrontal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/KillIfNotFrontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/KillIfNotFrontal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/KillIfOtherHasMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/KillIfOtherHasMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/PullWithIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/PullWithIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/SetSpeedForAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/SetSpeedForAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/TeleportToExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/TeleportToExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/TransformIfCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/TransformIfCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/TransformToAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/TransformToAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/TransformToSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/TransformToSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/WallBounce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/WallBounce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/WallReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/WallReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/binary/WallStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/binary/WallStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/AddHealthPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/AddHealthPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/AddHealthPointsToMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/AddHealthPointsToMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/CloneSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/CloneSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/FlipDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/FlipDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/HalfSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/HalfSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfAlive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfAlive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfHasLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfHasLess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfHasMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfHasMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfNotUpright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfNotUpright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillIfSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillIfSlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/KillSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/KillSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/RemoveScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/RemoveScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/ReverseDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/ReverseDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/ShieldFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/ShieldFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/Spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/Spawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnAbove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnAbove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnBehind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnBehind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnBelow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnBelow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnIfCounterSubTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnIfCounterSubTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnIfHasLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnIfHasLess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnIfHasMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnIfHasMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SpawnRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SpawnRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/StepBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/StepBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/SubtractHealthPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/SubtractHealthPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/TransformTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/TransformTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/TransformToRandomChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/TransformToRandomChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/TurnAround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/TurnAround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/UndoAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/UndoAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/UpdateSpawnType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/UpdateSpawnType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/WaterPhysics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/WaterPhysics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/effects/unary/WrapAround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/effects/unary/WrapAround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/physics/ContinuousPhysics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/physics/ContinuousPhysics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/physics/GridPhysics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/physics/GridPhysics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/physics/Physics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/physics/Physics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Conveyor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Conveyor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Flicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Flicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Immovable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Immovable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/OrientedFlicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/OrientedFlicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Passive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Passive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/ResourcePack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/ResourcePack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/Spreader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/Spreader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/missile/ErraticMissile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/missile/ErraticMissile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/missile/Missile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/missile/Missile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/missile/RandomMissile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/missile/RandomMissile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/AlternateChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/AlternateChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/Chaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/Chaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/Fleeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/Fleeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/LOSChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/LOSChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/PathAltChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/PathAltChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/PathChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/PathChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/RandomAltChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/RandomAltChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/RandomInertial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/RandomInertial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/RandomNPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/RandomNPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/RandomPathAltChaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/RandomPathAltChaser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/Walker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/npc/WalkerJumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/npc/WalkerJumper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/Bomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/Bomber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/BomberRandomMissile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/BomberRandomMissile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/Portal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/Portal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/RandomBomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/RandomBomber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/SpawnPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/SpawnPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/SpawnPointMultiSprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/SpawnPointMultiSprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ontology/sprites/producer/SpriteProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ontology/sprites/producer/SpriteProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/source_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing/ErrorTestingMultiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testing/ErrorTestingMultiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing/ErrorTestingSingleplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testing/ErrorTestingSingleplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/ElapsedCpuTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/ElapsedCpuTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/ElapsedWallTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/ElapsedWallTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/GameAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/GameAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/JEasyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/JEasyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/KeyInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/KeyPulse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/KeyPulse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/LevelAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/LevelAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/LevelMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/LevelMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/OptClearJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/OptClearJar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/OptEvaluateJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/OptEvaluateJar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/StatSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/StatSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/StepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/StepController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/Vector2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/WindowInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/WindowInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/DefaultDateTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/DefaultDateTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/ExclusionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/ExclusionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/FieldAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/FieldAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/FieldNamingPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/FieldNamingPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/FieldNamingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/FieldNamingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/Gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/Gson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/GsonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/GsonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/InstanceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/InstanceCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonDeserializationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonDeserializationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonIOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonIOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonParseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonParseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonPrimitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonSerializationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonSerializationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonStreamParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonStreamParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/JsonSyntaxException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/JsonSyntaxException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/LongSerializationPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/LongSerializationPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/TypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/TypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/TypeAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/TypeAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/Expose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/Expose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/JsonAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/JsonAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/SerializedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/SerializedName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/Since.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/Since.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/Until.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/Until.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/annotations/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/annotations/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/$Gson$Preconditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/$Gson$Preconditions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/$Gson$Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/$Gson$Types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/ConstructorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/ConstructorConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/Excluder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/Excluder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/JsonReaderInternalAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/JsonReaderInternalAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/LazilyParsedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/LazilyParsedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/LinkedHashTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/LinkedHashTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/LinkedTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/LinkedTreeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/ObjectConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/ObjectConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/Primitives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/UnsafeAllocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/UnsafeAllocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/ArrayTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/ArrayTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/DateTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/DateTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/JsonTreeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/JsonTreeReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/JsonTreeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/JsonTreeWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/MapTypeAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/MapTypeAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/ObjectTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/ObjectTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/SqlDateTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/SqlDateTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/TimeTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/TimeTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/TreeTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/TreeTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/TypeAdapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/TypeAdapters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/bind/util/ISO8601Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/bind/util/ISO8601Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/internal/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/internal/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/reflect/TypeToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/reflect/TypeToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/reflect/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/reflect/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/stream/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/stream/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/stream/JsonScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/stream/JsonScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/stream/JsonToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/stream/JsonToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/stream/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/stream/JsonWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/com/google/gson/stream/MalformedJsonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/com/google/gson/stream/MalformedJsonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/pathfinder/AStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/pathfinder/AStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/pathfinder/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/pathfinder/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/pathfinder/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/pathfinder/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/pathfinder/PathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/pathfinder/PathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ArcadeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ArcadeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/DesignMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/DesignMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/LearningMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/LearningMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/gameDesign/TestGameSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/gameDesign/TestGameSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/gameDesign/TestMultiGameSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/gameDesign/TestMultiGameSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/LevelGenMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/LevelGenMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/TestLevelGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/TestLevelGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/AbstractConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/AbstractConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/AvatarNumberConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/AvatarNumberConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/CombinedConstraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/CombinedConstraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/CoverPercentageConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/CoverPercentageConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/DeathConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/DeathConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/GoalConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/GoalConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/SolutionLengthConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/SolutionLengthConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/SpriteNumberConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/SpriteNumberConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constraints/WinConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constraints/WinConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constructiveLevelGenerator/LevelCoverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constructiveLevelGenerator/LevelCoverData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constructiveLevelGenerator/LevelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constructiveLevelGenerator/LevelData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/constructiveLevelGenerator/LevelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/constructiveLevelGenerator/LevelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/geneticLevelGenerator/Chromosome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/geneticLevelGenerator/Chromosome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/geneticLevelGenerator/LevelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/geneticLevelGenerator/LevelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/geneticLevelGenerator/SharedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/geneticLevelGenerator/SharedData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/levelGeneration/randomLevelGenerator/LevelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/levelGeneration/randomLevelGenerator/LevelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/TestMultiPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/TestMultiPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleMCTS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleMCTS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleMCTS/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleMCTS/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleMCTS/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleMCTS/SingleTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleRHEA/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleRHEA/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleRHEA/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleRHEA/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleRS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleRS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/advanced/sampleRS/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/advanced/sampleRS/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/deprecated/sampleGA/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/deprecated/sampleGA/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/deprecated/sampleMCTS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/deprecated/sampleMCTS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/deprecated/sampleMCTS/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/deprecated/sampleMCTS/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/deprecated/sampleMCTS/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/deprecated/sampleMCTS/SingleTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/simple/doNothing/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/simple/doNothing/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/simple/sampleOneStepLookAhead/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/simple/sampleOneStepLookAhead/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/simple/sampleRandom/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/simple/sampleRandom/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/tools/heuristics/SimpleStateHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/tools/heuristics/SimpleStateHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/tools/heuristics/StateHeuristicMulti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/tools/heuristics/StateHeuristicMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/tools/heuristics/WinScoreHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/tools/heuristics/WinScoreHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/tools/human/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/tools/human/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/multiPlayer/tools/replayer/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/multiPlayer/tools/replayer/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/RuleGenMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/RuleGenMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/TestRuleGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/TestRuleGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/constructiveRuleGenerator/RuleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/constructiveRuleGenerator/RuleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/geneticRuleGenerator/Chromosome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/geneticRuleGenerator/Chromosome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/geneticRuleGenerator/RuleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/geneticRuleGenerator/RuleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/geneticRuleGenerator/SharedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/geneticRuleGenerator/SharedData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/ruleGeneration/randomRuleGenerator/RuleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/ruleGeneration/randomRuleGenerator/RuleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/TestSingleLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/TestSingleLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/oneclickRunFromServer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/oneclickRunFromServer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/Comm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/Comm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/JavaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/JavaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/PipeComm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/PipeComm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/SocketComm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/SocketComm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/runClient_nocompile.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/runClient_nocompile.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/runClient_nocompile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/runClient_nocompile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singleLearning/utils/runClient_nocompile_pipes.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singleLearning/utils/runClient_nocompile_pipes.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/olets/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/olets/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/olets/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/olets/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/olets/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/olets/SingleTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleMCTS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleMCTS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleMCTS/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleMCTS/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleMCTS/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleMCTS/SingleTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleRHEA/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleRHEA/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleRHEA/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleRHEA/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleRS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleRS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/advanced/sampleRS/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/advanced/sampleRS/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/deprecated/sampleGA/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/deprecated/sampleGA/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/deprecated/sampleMCTS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/deprecated/sampleMCTS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/deprecated/sampleMCTS/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/deprecated/sampleMCTS/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/deprecated/sampleMCTS/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/deprecated/sampleMCTS/SingleTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/doNothing/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/doNothing/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/greedyTreeSearch/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/greedyTreeSearch/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/greedyTreeSearch/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/greedyTreeSearch/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/sampleRandom/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/sampleRandom/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/sampleonesteplookahead/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/sampleonesteplookahead/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/simple/simpleRandom/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/simple/simpleRandom/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/Heuristics/SimpleStateHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/Heuristics/SimpleStateHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/Heuristics/StateHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/Heuristics/StateHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/Heuristics/WinScoreHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/Heuristics/WinScoreHeuristic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/human/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/human/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/repeatOLETS/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/repeatOLETS/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/replayer/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/replayer/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/ucbOptimizerAgent/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/ucbOptimizerAgent/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/ucbOptimizerAgent/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/ucbOptimizerAgent/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/ucbOptimizerAgent/SingleMCTSPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/ucbOptimizerAgent/SingleMCTSPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tracks/singlePlayer/tools/ucbOptimizerAgent/SingleTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tracks/singlePlayer/tools/ucbOptimizerAgent/SingleTreeNode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="gvgai/invalid/Python" />
+    </ignored-facets>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gO00qkqZJKILQSBfQpilTGL8VI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learningTrack2017.iml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.SinglePlayer Test">
+    <configuration name="SinglePlayer Test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tracks.singlePlayer.Test" />
+      <module name="learningTrack2017" />
+      <option name="PROGRAM_PARAMETERS" value="27 500 4500 5-10-25-50 5-10-25-50" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gson-2.6.2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/gson-2.6.2.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="gvgai" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="gvgai" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SinglePlayer Test" />
+      <item itemvalue="JAR Application.gson-2.6.2.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.gson-2.6.2.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49a7c100-1617-4120-82a3-85a580e06bf0" name="Default Changelist" comment="" />
+      <created>1597970111961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597970111961</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="Python" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/tf" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="multiFidelityMCTS.pyInterface.PyInterface" memberName="reader" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

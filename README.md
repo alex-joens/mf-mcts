@@ -1,46 +1,45 @@
-gvgai
-=====
+mf-mfts
+====
 
-Note: The Learning track code is not in this repository, but here: https://github.com/rubenrtorrado/GVGAI_GYM
+MF-MCTS (Multi-Fidelity Monte Carlo Tree Search) is a general approach for taking advantage of multiple simulation options, of varying cost and quality, with MCTS.  This is a branch of GVGAI's single-player planning track, which is found here: https://github.com/GAIGResearch/GVGAI
 
+The particular algorithm I tested uses GP regression, which is most easily done in TensorFlow. Thus, the models and search tree are stored in a separate Python program, which communicates with GVGAI to request samples.
 
-This is the framework for the General Video Game Competition, used for the Planning and PCG Tracks - http://www.gvgai.net/
+### Setup
 
-Google group - https://groups.google.com/forum/#!forum/the-general-video-game-competition
+Please refer to the GVGAI documentation for setup. I had the best luck with IntelliJ IDEA, which allowed me to import the entire thing as a project.
 
-## FAQs / Troubleshooting
+The Python code requires Python3, `tensorflow`, and `tensorflow_probability` - please refer to their respective installation instructions. I set up `tensorflow-gpu`, but this can be a righteous pain. I included a test script at `py/old/tftest.py` for verifying successful TensorFlow installation.
 
-**3. Where are the Test methods? Due to the explosion of GVGAI competition tracks, we have distributed the main methods in different classes across the code hierarchy:
+Optionally, install `matplotlib` and set `Model.plot = True` in `model.py`. This will plot the learning behavior, which is very useful for making sure everything works. 
 
- - Single Player Planning track: tracks.singlePlayer.Test.java
- - 2-Player Planning track: tracks.multiPlayer.TestMultiPlayer.java
- - Level Generation track: tracks.levelGeneration.TestLevelGeneration.java
- - Rule Generation track: tracks.ruleGeneration.TestRuleGeneration.java
+To run, create a Run/Debug Configuration targeting `src/main/java/tracks/singlePlayer/Test.java`. If you want to compile a JAR file, target this same file. Note that the program expects certain command-line arguments.
 
+### Configuration
 
-**2. How do I upload my controller? What files or folder structure do I need? 
-First of all, your controller ```Agent.java``` and any auxiliary files you create should be in a single package folder with your username. For example, if your username is "abc", you should have a package folder named "abc" in the project. Your entire project layout should look something like this:
+There are several parameters that have to be manually configured.
 
-```groovy
-- abc
-	|- Agent.java
-	|- MyAdditionalFile1.java
-	|- MyAdditionalFile2.java
-- tracks
-- core
-- ontology
-- tools
-```
+`singlePlayer/Test.java`: Line 23 is the path to the full list of games.
 
-Then, all you need to do is to zip and upload the "abc" folder. No other folders/files are necessary.
+`Configuration.java`: Some learning parameters and the path to the Python script. Some of these are overridden by command line args.
 
+`main.py`: (Optional) Set `path` to the folder where model plots will be saved.
 
-**3. I am getting the error `javac1.8 class not found` when running Eclipse and ANT on build.xml**
-This is likely because the ANT version that is installed with your version of Eclipse is old. You can easily fix this problem by doing the following:
+`model.py`: Controls tensorflow-gpu and model training behavior
+- Set `dtype` and `jitter` to meet hardware needs. Consumer-grade GPUs have relatively strong single-point performance and weak double-point, so use np.float32 and 1e-3. CPUs and workstation GPUs can use np.float64 and 1e-6 with little performance penalty, though it's likely overkill.
+- Model training is by far the greatest bottleneck, so it is heavily optimized. Each fidelity's model is only checked once every `updateCycle` (default 25) times a new data point is added. It will defer an update if model has mostly converged and the means haven't changed substantially. A maximum of `maxDeferUpdates` (default 10) updates can be deferred this way.
 
-- Download the archive of the [latest version of ANT](http://ant.apache.org/bindownload.cgi) (Tested with  Ant 1.9.4)
-- Extract the archive onto a local folder on your computer (e.g., /Users/gvgai/ant/apache-ant-1.9.4/)
-- In Eclipse, go to Eclipse -> Preferences -> Ant -> Runtime
-- Click on "Ant Home'' button on the right.
-- Select the folder, which you extracted ANT into (e.g., /Users/gvgai/ant/apache-ant-1.9.4/)
+### Operation
+
+You can run `singlePlayer/Test.java` directly from an IDE, or 
+
+### Modification
+
+The relevant Java files are stored in `src/multiFidelityMCTS`. The `main()` function is stored in `src/main/java/tracks/singlePlayer/Test.java`.
+
+The Python files are stored in, you guessed it, `py`. You will most likely want to change `mf_tree.py`.
+
+This system is not optimized for mass testing, due to the significant memory overhead of both Java and TensorFlow (about 1.5GB per program instance). I was partway through implementing parallel experimentation, but it is not fully functional so I uploaded an older, more stable build.
+
+When implementing multithreading, the only oddity was that `ArcadeMachine.runMFMCTSGame()` will break unless you wrap pretty much the entire function body in `synchronized()`. Give each thread an ID number. Update `PyInterface.java` to use static variables to store the program, and modify the message passing system slightly to include an ID number in every message.
 

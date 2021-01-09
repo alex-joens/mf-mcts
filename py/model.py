@@ -26,6 +26,7 @@ class Model:
     __maxValue = None
     dtype=np.float32
     jitter=dtype(1e-3)
+    maxDeferUpdates=10
     def __init__(self, fidelity, path=""):
         self.ID = str(fidelity)
         self.path = path
@@ -86,7 +87,7 @@ class Model:
                 # Once the model's mostly converged, updates are less useful
                 tinyStdevs = sum(self.post_std) < 0.001
                 # Defer no more than 10 updates in a row
-                mustUpdate = self.updatesDeferred >= 10
+                mustUpdate = self.updatesDeferred >= Model.maxDeferUpdates
                 # Update if forced OR if any of the "defer" conditions are false
                 if mustUpdate or not (similarMeans and tinyStdevs):
                     self.oldMeans = self.post_mean
